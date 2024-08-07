@@ -80,7 +80,7 @@ export default function Home() {
 
       <footer className="bg-gray-800 text-white py-6">
         <div className="container mx-auto text-center">
-          <p>&copy; 2024 Skery Page. All rights reserved. Design by Kalugy</p>
+          <p>&copy; 2024 Skery project 0. All rights reserved. Design by Kalugy</p>
         </div>
       </footer>
     </div>
