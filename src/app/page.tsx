@@ -6,6 +6,13 @@ import Image from 'next/image';
 
 import Features from '../components/Features';
 
+import Newsletter from '../components/Newsletter';
+import About from '../components/About';
+
+import Timeline from '../components/Timeline';
+import Contact from '../components/Contact';
+
+
 export default function Home() {
   
   return (
@@ -58,12 +65,12 @@ export default function Home() {
     <div className="p-5 max-w-xl text-center sm:text-left">
       <div className='p-5 bg-gray-800 bg-opacity-70 rounded-lg shadow-lg my-8'>
         <h1 className="text-3xl font-extrabold text-white sm:text-5xl">
-          Skery Game 
-          <strong className="block text-1xl sm:text-1xl font-extrabold text-rose-500">project 0 </strong>
+          My body puzzle  
+          <strong className="block text-1xl sm:text-1xl font-extrabold text-rose-500">project 0</strong>
         </h1>
 
         <p className="mt-4 max-w-lg text-white sm:text-xl/relaxed">
-          Enjoy learning about human body all is parts by a puzzle and challenges.
+          Enjoy learning about human body parts by puzzles and challenges
         </p>
       </div>
       <div className="mt-8 flex flex-wrap gap-4 text-center">
@@ -84,208 +91,7 @@ export default function Home() {
     </div>
   </div>
 </section>
-  <section id="section1" className="bg-gray-900 text-white">
-  <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
-    <div className="mx-auto max-w-lg text-center">
-      <h2 className="text-3xl font-bold sm:text-4xl">What is it?</h2>
-
-      <p className="mt-4 text-gray-300">
-        Skery is game made by one developer to learning by gaming. The idea starts in July 2024 and currently is on going. Below are the stages of development over 2 months:
-      </p>
-    </div>
-
-    <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-      <a
-        className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
-        href="#"
-      >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className="size-10 text-pink-500"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path d="M12 14l9-5-9-5-9 5 9 5z" />
-          <path
-            d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-          />
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-          />
-        </svg>
-
-        <h2 className="mt-4 text-xl font-bold text-white">Stage #1</h2>
-
-        <p className="mt-1 text-sm text-gray-300">
-          Creating the model and export to the engine
-        </p>
-      </a>
-
-      <a
-        className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
-        href="#"
-      >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className="size-10 text-pink-500"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path d="M12 14l9-5-9-5-9 5 9 5z" />
-          <path
-            d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-          />
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-          />
-        </svg>
-
-        <h2 className="mt-4 text-xl font-bold text-white">Stage #2</h2>
-
-        <p className="mt-1 text-sm text-gray-300">
-          Visualization 3d skull with bones and interactions
-        </p>
-      </a>
-
-      <a
-        className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
-        href="#"
-      >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className="size-10 text-pink-500"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path d="M12 14l9-5-9-5-9 5 9 5z" />
-          <path
-            d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-          />
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-          />
-        </svg>
-
-        <h2 className="mt-4 text-xl font-bold text-white">Stage #3</h2>
-
-        <p className="mt-1 text-sm text-gray-300">
-          Create Drag and Drop gaming with names
-        </p>
-      </a>
-
-      <a
-        className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
-        href="#"
-      >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className="size-10 text-pink-500"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path d="M12 14l9-5-9-5-9 5 9 5z" />
-          <path
-            d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-          />
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-          />
-        </svg>
-
-        <h2 className="mt-4 text-xl font-bold text-white">Stage #4</h2>
-
-        <p className="mt-1 text-sm text-gray-300">
-          Open page to test the game
-        </p>
-      </a>
-
-      <a
-        className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
-        href="#"
-      >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className="size-10 text-pink-500"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path d="M12 14l9-5-9-5-9 5 9 5z" />
-          <path
-            d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-          />
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-          />
-        </svg>
-
-        <h2 className="mt-4 text-xl font-bold text-white">Stage #5</h2>
-
-        <p className="mt-1 text-sm text-gray-300">
-          review
-        </p>
-      </a>
-
-      <a
-        className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
-        href="#"
-      >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className="size-10 text-pink-500"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path d="M12 14l9-5-9-5-9 5 9 5z" />
-          <path
-            d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-          />
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-          />
-        </svg>
-
-        <h2 className="mt-4 text-xl font-bold text-white">Stage #6</h2>
-
-        <p className="mt-1 text-sm text-gray-300">
-          review
-        </p>
-      </a>
-    </div>
-
-    <div className="mt-12 text-center">
-      <a
-        href="#"
-        className="inline-block rounded bg-pink-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-pink-700 focus:outline-none focus:ring focus:ring-yellow-400"
-      >
-        Try the game
-      </a>
-    </div>
-  </div>
-</section>
+  
 {/* 
 <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8">
   <div className="h-32 rounded-lg bg-gray-200 lg:col-span-2"></div>
@@ -322,14 +128,19 @@ export default function Home() {
 </div> */}
       
 
-
+      <Timeline/>
+      <About/>
+      
       <Features></Features>
-
+      
+      {/* <Newsletter></Newsletter> */}
+      <Contact></Contact>
       <footer className="bg-gray-900 text-white py-6">
         <div className="container mx-auto text-center">
-          <p>&copy; 2024 Skery project 0. All rights reserved. Design by Kalugy</p>
+          <p>&copy; 2024 My body puzzle project 0. All rights reserved. Design by Kalugy</p>
         </div>
       </footer>
+      
     </div>
   );
 }

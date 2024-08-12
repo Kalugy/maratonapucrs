@@ -10,23 +10,29 @@ const features = [
     {
       name: 'Drag and Drop',
       description:
-        'This is a section where the player have a timer and drag every bone put in the skeleton and fill if the timer reach 0 is game over',
+        'This is a section where the player have a timer and drag every bone put in the skeleton and fill the name if the timer reach 0 is game over',
       icon: IconPreview,
     },
     {
         name: 'Future Interactions',
         description:
-          'I thought about lvls and adding muscles, systems, internal organs but is on review',
+          'I thought about lvls and adding muscles, systems, internal organs but is on review, multiple devices',
         icon: IconPreview,
-      },
+    },
+    {
+      name: 'Recomends Specs',
+      description:
+        'For now is on website, prefer device PC: 1920x1080 full screen resolution',
+      icon: IconPreview,
+  },
   ]
   
   export default function Features() {
     return (
-      <div className="bg-white py-24 sm:py-32">
+      <div className="bg-white  py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:text-center">
-            <h2 className="text-base font-semibold leading-7 text-indigo-600">Project0</h2>
+            <h2 className="text-base font-semibold leading-7 text-indigo-600">Project0: My body puzzle</h2>
             <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
               Everything you need to the projects
             </p>
