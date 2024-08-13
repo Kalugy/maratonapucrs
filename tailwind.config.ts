@@ -18,6 +18,19 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+          'cloud-gradient': 'linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.5))',
+      },
+      keyframes: {
+        gradient: {
+          '0%': { 'background-position': '0% 0%' },
+          '100%': { 'background-position': '100% 100%' },
+        },
+      },
+      animation: {
+        gradient: 'gradient 30s ease infinite',
+      },
+      backgroundSize: {
+        '200': '200% 200%',
       },
     },
   },

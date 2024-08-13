@@ -31,3 +31,58 @@ body {
     text-wrap: balance;
   }
 }
+
+
+
+@keyframes moveClouds2 {
+  0% {
+    transform: translateX(-100%);
+  }
+  
+  50% {
+    transform: translateX(50%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-moveClouds {
+  animation: moveClouds2 60s linear infinite;
+}
+
+/* Define keyframes for random movement */
+@keyframes randomMove {
+  0% {
+    transform: translateX(100%);
+    transform: translateY(-20%);
+  }
+  50% {
+    transform: translateX(50%);
+    transform: translateY(20%);
+  }
+  100% {
+    transform: translateX(100%);
+    transform: translateY(-20%);
+
+  }
+}
+
+/* Apply the animation */
+.animate-randomMove {
+  animation: randomMove 15s linear infinite;
+}
+
+.divider-wave {
+  height: 15px; /* Shorter height for the wave section */
+  background: linear-gradient(
+    to bottom,
+    rgba(244, 63, 94, 0) 0%,  /* Fully transparent at the top */
+    rgba(244, 63, 94, 0) 10%,  /* Fully transparent for a small portion at the top */
+    rgba(170, 60, 78, 0.687) 50%, /* Solid color */
+    rgb(170, 60, 78) 50%, /* Solid color */
+    rgba(244, 63, 94, 0) 90%,  /* Fully transparent for a small portion at the bottom */
+    #9c9c9c1c 100%  /* Fully transparent at the bottom */
+  );
+  background-size: 100% 100%;
+}

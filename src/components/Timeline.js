@@ -14,7 +14,7 @@ export default function Example() {
                         </div>
                     </AnimatedSectionWithAnimation>
                     <p 
-                        className="mt-4 text-black dark:text-gray-400"
+                        className="mt-4 text-gray-900 font-semibold dark:text-gray-100"
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{
@@ -33,7 +33,7 @@ export default function Example() {
 
                         <a
                             key={index}
-                            className="block rounded-xl border border-gray-100 dark:border-gray-800 p-8 shadow-xl transition hover:border-rose-500/10 hover:shadow-rose-500/10"
+                            className="block bg-gray-100 dark:bg-gray-900 rounded-xl border border-gray-100 dark:border-gray-800 p-8 shadow-xl transition hover:border-rose-500/10 hover:shadow-rose-500/10"
                             href="#"
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
@@ -66,7 +66,7 @@ export default function Example() {
                                 />
                             </svg>
 
-                            <h2 className="mt-4 text-xl font-bold text-black dark:text-white">{stage.title}</h2>
+                            <h2 className="mt-4 text-xl c text-black dark:text-white">{stage.title}</h2>
 
                             <p className="mt-1 text-sm text-black dark:text-gray-300">{stage.description}</p>
                             </AnimatedSectionWithAnimation>

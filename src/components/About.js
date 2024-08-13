@@ -53,7 +53,7 @@ export default function Example() {
 
         {/* Animated Images Section */}
         <motion.div
-          className="grid grid-cols-2 gap-4 mt-8"
+          className="grid grid-cols-2 gap-4 mt-20"
           initial="hidden"
           animate={controls}
           variants={{
