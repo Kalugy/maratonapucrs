@@ -7,8 +7,6 @@ import Timeline from '../components/Timeline';
 import Contact from '../components/Contact';
 import Banner from '../components/Banner';
 import DarkModeToggle from '../components/DarkModeToggle';
-import ParticleBackground from '../components/ParticleBackground';
-import GradientBackground from '../components/GradientBackground';
 import Footer from '../components/Footer'
 
 
@@ -39,6 +37,8 @@ export default function Home() {
       <>
         <Features></Features>
         <Contact></Contact>
+
+    <Footer></Footer>
       </>
       <div aria-hidden="true" className="absolute left-1/2 -top-8 -z-10 -translate-x-1/2 blur-3xl xl:-top-6">
         <div
@@ -51,7 +51,6 @@ export default function Home() {
       </div>
     </div>
 
-    <Footer></Footer>
 
     </div>
   );

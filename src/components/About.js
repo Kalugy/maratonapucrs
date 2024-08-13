@@ -23,14 +23,14 @@ export default function Example() {
   }, [controls, inView]);
 
   return (
-    <section className="">
+    <section className="mx-auto py-16 sm:py-24 lg:py-32">
       <div
-        className="gap-16 items-center py-16 sm:py-24 lg:py-32 px-8 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:px-16"
+        className="gap-16 items-center  px-8 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:px-16"
         ref={ref} // Attach the ref to trigger animation when in view
       >
         {/* Animated Text Section */}
         <motion.div
-          className="font-light text-gray-500 sm:text-lg dark:text-gray-400"
+          className=" text-slate-900 font-medium sm:text-lg dark:text-gray-400"
           initial="hidden"
           animate={controls}
           variants={{
