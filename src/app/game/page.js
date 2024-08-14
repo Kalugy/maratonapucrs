@@ -18,7 +18,7 @@ const GamePage = () => {
   };
 
   return (
-    <div className="relative h-screen flex flex-col items-center justify-center bg-gray-100">
+    <div className="relative h-screen w-full flex flex-col items-center justify-center">
       <Link href="/" passHref>
         <p className="absolute top-4 left-4 p-2 bg-gray-800 text-white rounded-full shadow-md">
           <svg
@@ -54,3 +54,21 @@ const GamePage = () => {
 
 
 export default GamePage; 
+
+
+/*
+      COMMENT LINE 21
+        <!-- <div id="unity-webgl-logo"></div> -->
+      
+      COPY PASTE
+        // config.devicePixelRatio = 1;
+        canvas.style.width = screen.width + "px";
+        canvas.style.height = "100vh";
+
+      } else {
+        // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
+        canvas.style.width = screen.width -400 + "px";
+        canvas.style.height = "80vh";
+      }
+
+  */
