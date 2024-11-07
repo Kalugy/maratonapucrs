@@ -40,15 +40,18 @@ export default function Example() {
           transition={{ duration: 1.5 }}
         >
           <h2 className="mb-4 lg:mb-12 text-4xl tracking-tight font-extrabold text-primary-light">
-            My body puzzle
+            3D Flood Simulation and Prediction Platform
           </h2>
 
           <p className="mb-4 lg:mb-12 text-black dark:text-gray-300">
-            Memorizing large amounts of information can be challenging, but when you engage with the material interactively, learning becomes much more manageable and enjoyable. Interactive methods make complex data easier to understand and remember, turning the learning process into a more fun and rewarding experience
+          The concept revolves around creating a 3D simulation and
+prediction platform for flood modeling. 
           </p>
           <p className='text-black dark:text-gray-300'>
-            Explore the names and structures of bones within the human body, uncovering their locations and understanding the terminology associated with them
-          </p>
+          The platform will allow
+municipalities, environmental organizations, and insurance
+companies to predict, visualize, and analyze flood behavior
+across diverse terrains.          </p>
         </motion.div>
 
         {/* Animated Images Section */}

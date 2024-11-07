@@ -20,7 +20,7 @@ export default function Example() {
                     </AnimatedSectionWithAnimation>
                     <AnimatedSectionWithAnimation className="" animationType="fade">
                         <p className="mt-4 text-gray-950 font-semibold dark:font-bold dark:text-gray-100">
-                            My body puzzle is a game made by one developer. The idea starts in July 2024 and is currently ongoing. The idea of the game is to learn about the human body in an interactive way. Below are the stages of development over 2 months:
+                            Business Idea: 3D Flood Simulation and Prediction Platform
                         </p>
                     </AnimatedSectionWithAnimation>
 
@@ -71,7 +71,7 @@ export default function Example() {
                             repeatType: "reverse"
                         }}
                     >
-                        Try the game
+                        Start 
                     </a>
                     </AnimatedSectionWithAnimation>
                 </div>
@@ -82,33 +82,33 @@ export default function Example() {
 
 const stages = [
     {
-        title: "Stage #1",
-        description: "Creating the model and export to the engine",
+        title: "Feature #1",
+        description: "Open Visualization for Public Access",
         icon: <Hat></Hat>
     },
     {
-        title: "Stage #2",
-        description: "Visualization 3d skull with bones and interactions",
+        title: "Feature #2",
+        description: "Real-Time Simulation with Interactive Visualization",
         icon: <Hat></Hat>
     },
     {
-        title: "Stage #3",
-        description: "Create Drag and Drop gaming with names",
+        title: "Feature #3",
+        description: "Custom Visualization Requests",
         icon: <Hat></Hat>
     },
     {
-        title: "Stage #4",
-        description: "Open page to test the game",
+        title: "Feature #4",
+        description: "Predictive Analytics for Future Flooding Events",
         icon: <Calendar/>
     },
     {
-        title: "Stage #5",
-        description: "Finish page, finish demo game",
+        title: "Feature #5",
+        description: "Risk assessments.",
         icon: <Clock/>
     },
     {
-        title: "Stage #6",
-        description: "Review",
+        title: "Feature #6",
+        description: "Disaster Management",
         icon: <Clock/>
     }
 ];

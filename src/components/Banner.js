@@ -19,12 +19,12 @@ export default function Banner() {
             <div className="p-5 max-w-xl text-center sm:text-left">
             <div className='p-5 bg-gray-800 bg-opacity-70 rounded-lg shadow-lg my-8'>
                 <h1 className="text-3xl font-extrabold text-white sm:text-5xl">
-                My body puzzle  
-                <strong className="block text-1xl sm:text-1xl font-extrabold text-primary-light">project 0</strong>
+                3D Flood Simulator
+                <strong className="block text-1xl sm:text-1xl font-extrabold text-primary-light">Maratona PUCRS</strong>
                 </h1>
 
                 <p className="mt-4 max-w-lg text-white sm:text-xl/relaxed">
-                Enjoy learning about human body parts by puzzles and challenges
+                Experience real-time flood scenarios and impact analysis.
                 </p>
             </div>
             <div className="mt-8 px-4 flex flex-wrap gap-4 text-center">

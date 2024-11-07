@@ -9,30 +9,29 @@ import Pc from '../app/svg/Pc'
 
 const features = [
     {
-      name: 'Preview',
+      name: 'Real-Time Simulation with Interactive Visualization',
       description:
-        'Zoom every bone and see where it is also in the skull you can see the internal bones',
+        'Users can control parameters like water levels, terrain changes, or even simulate extreme weather',
       icon: <Chat/>,
     },
     {
-      name: 'Drag and Drop',
+      name: 'Open Visualization for Public Access',
       description:
-        'The player have a timer and drag every bone put in the skeleton and fill the name if the timer reach 0 is game over',
+        'The platform will offer open-access, pre-built flood simulations for various cities or structures, allowing anyone to visualize flood risks.',
         icon: <Gaming/>,
       },
       {
-        name: 'Recomends Specs',
+        name: 'Custom Visualization Requests',
         description:
-          'For now is on website, prefer device PC: 1920x1080 full screen resolution',
-          icon: <Pc/>,
-    },
-    {
-        name: 'Future Interactions',
-        description:
-          'I thought about lvls and adding muscles, systems, internal organs, multiple devices',
+          'After viewing general flood risk examples, users can request custom simulations for specific cities, regions, or even private properties.',
           icon: <Chart/>,
         },
-    
+      {
+        name: 'Predictive Analytics for Future Flooding Events',
+        description:
+          'Users can see how flood-prone areas might evolve over time, allowing for proactive planning.',
+          icon: <Pc/>,
+        },
   ]
   
   export default function Features() {
@@ -42,17 +41,17 @@ const features = [
           <div className="mx-auto max-w-2xl lg:text-center">
             <AnimatedSectionWithAnimation className="" animationType="fade">
 
-            <h2 className="text-base font-semibold leading-7 text-primary-light">Project0: My body puzzle</h2>
+            <h2 className="text-base font-semibold leading-7 text-primary-light">3D Flood Simulation and Prediction Platform</h2>
             <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
-              Everything you need to the projects
+              Unique Value Proposition
             </p>
             <p className="mt-6 text-lg leading-8 text-gray-800 dark:text-gray-300">
-              The project have the purpose to make memorization more easy in more fun and interactive way
+              The platform will not just simulate the current state of flooding but also predict future flood risks based on historical data, weather forecasts, and other relevant metrics.
             </p>
             </AnimatedSectionWithAnimation>
           </div>
           <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-7xl">
-            <dl className="grid max-w-xl grid-cols-1 gap-y-10 gap-x-8 lg:max-w-none md:grid-cols-2 lg:grid-cols-4 lg:gap-y-16">
+            <dl className="grid max-w-xl grid-cols-1 gap-y-10 gap-x-8 lg:max-w-none md:grid-cols-2 lg:grid-cols-4 lg:gap-y-16 justify-center">
               {features.map((feature) => (
                 <div key={feature.name} className="relative">
                   <AnimatedSectionWithAnimation className="" animationType="fade">
