@@ -39,7 +39,7 @@ const GamePage = () => {
       </Link>
 
       <div className="flex flex-col items-center justify-center w-full h-full">
-        {!isLoaded && <p>Loading the game...</p>}
+        {!isLoaded && <p>Loading ...</p>}
         <iframe
           id="unity-iframe"
           src="/game/index.html"
