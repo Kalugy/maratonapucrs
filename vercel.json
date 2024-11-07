@@ -1,23 +1,23 @@
 {
     "headers": [
-        {
-        "source": "/game/Build/*.br",
+      {
+        "source": "/game/Build/:file*.br",
         "headers": [
-            {
+          {
             "key": "Content-Encoding",
             "value": "br"
-            }
+          }
         ]
-        },
-        {
-        "source": "/game/Build/*.gz",
+      },
+      {
+        "source": "/game/Build/:file*.gz",
         "headers": [
-            {
+          {
             "key": "Content-Encoding",
             "value": "gzip"
-            }
+          }
         ]
-        }
+      }
     ]
-}
+  }
   
