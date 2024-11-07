@@ -42,7 +42,7 @@ const GamePage = () => {
         {!isLoaded && <p>Loading ...</p>}
         <iframe
           id="unity-iframe"
-          src="/game/index.html"
+          src="https://play.unity.com/api/v1/games/game/4954ce5f-8f39-45ee-b670-3dab80df1eab/build/latest/frame?access_token=qlq280M3FX6ArbkGs1sF7gHlX8y6cz-ag4CaWPgIVMA004f"
           className={`w-full h-full ${!isLoaded ? 'hidden' : ''}`}
           frameBorder="0"
           onLoad={handleIframeLoad}
