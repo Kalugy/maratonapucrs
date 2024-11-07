@@ -4,7 +4,9 @@ import AnimatedSectionWithAnimation from './AnimatedSectionWithAnimation';
 import Calendar from '@/app/svg/Calendar';
 import Bell from '@/app/svg/Bell';
 
-
+const url = process.env.NEWSLETTER_URL;
+ 
+console.log('ur',url)
 export default function Subscribe() {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
@@ -14,7 +16,7 @@ export default function Subscribe() {
 
     if (email) {
       try {
-        const response = await fetch('https://script.google.com/macros/s/AKfycbzcPj2Y5gR0bCVF253XG29Wp2fqsVfRQUz8YPBlE3KKQn3QDB9lXJBqXp15d4G1wvc/exec', {
+        const response = await fetch(url, {
           method: 'POST',
           mode: 'no-cors', // 'no-cors' to prevent CORS errors
           headers: {
