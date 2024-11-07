@@ -2,18 +2,18 @@
 import { useState, useEffect } from 'react';
 
 export default function DarkModeToggle() {
-  const [darkMode, setDarkMode] = useState(() => {
-    const savedMode = localStorage.getItem('darkMode');
-    return savedMode === null ? true : savedMode === 'true';
-  });
+  const [darkMode, setDarkMode] = useState(true); // Default to dark mode
 
   useEffect(() => {
-    // Toggle the dark class based on the initial state
-    document.documentElement.classList.toggle('dark', darkMode);
+    // Check for saved dark mode preference in the browser
+    const savedMode = localStorage.getItem('darkMode');
+    const isDarkMode = savedMode === null ? true : savedMode === 'true';
+    setDarkMode(isDarkMode);
+    document.documentElement.classList.toggle('dark', isDarkMode);
   }, []);
 
   useEffect(() => {
-    // Save dark mode preference and toggle dark class
+    // Save dark mode preference in the browser and toggle dark class
     localStorage.setItem('darkMode', darkMode);
     document.documentElement.classList.toggle('dark', darkMode);
   }, [darkMode]);
